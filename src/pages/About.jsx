@@ -1,11 +1,11 @@
 function About(){
     return(
-        <div>
-            <div>
+        <div className="d-flex justify-content-center align-items-center vh-100 bg-warning-subtle">
+            <div className="text-center p-3">
                 <div className="row m-2">
 <div className="col-md-6">
 <h1>   About Us</h1>
-<p>   Welcome to Coolian Bar, where every batch of ice cream is crafted from scratch daily using fresh, local milk and real, seasonal fruits. Founded in 2026 by two neighborhood friends with a shared love for classic desserts and bold new flavors, our cozy shop is designed to be a happy gathering place for families and friends. Stop by our counter today to taste the joy in every handmade cone! </p>
+<p className="fs-3 ">   Welcome to Coolian Bar, where every batch of ice cream is crafted from scratch daily using fresh, local milk and real, seasonal fruits. Founded in 2026 by two neighborhood friends with a shared love for classic desserts and bold new flavors, our cozy shop is designed to be a happy gathering place for families and friends. Stop by our counter today to taste the joy in every handmade cone! </p>
 </div>
 
 <div className="col-md-6">
